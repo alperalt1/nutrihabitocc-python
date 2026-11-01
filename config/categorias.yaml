@@ -1,0 +1,150 @@
+# =====================================================================
+#  CATEGORÍAS DE ALIMENTOS POR TIENDA  (edita y aprueba este archivo)
+# =====================================================================
+politica:
+  excluir_alcohol: true     # cerveza, vino, licores
+  excluir_mascotas: true    # alimento para perros/gatos
+  incluir_bebe_alimentacion: true   # compotas, papillas, fórmulas
+
+tia:
+  base_url: https://www.tia.com.ec
+  # Se recorre cada ruta con ?p=1,2,3... hasta que no haya productos nuevos.
+  categorias:
+    - {ruta: /supermercado/comestibles/aceites-y-vinagres, categoria: Comestibles, subcategoria: Aceites y vinagres}
+    - {ruta: /supermercado/comestibles/cafe-y-chocolate-en-polvo, categoria: Comestibles, subcategoria: Café y chocolate en polvo}
+    - {ruta: /supermercado/comestibles/cereales-y-granolas, categoria: Comestibles, subcategoria: Cereales y granolas}
+    - {ruta: /supermercado/comestibles/azucar-endulzantes-y-panela, categoria: Comestibles, subcategoria: Azúcar, endulzantes y panela}
+    - {ruta: /supermercado/comestibles/salsas-condimentos-y-aderezos, categoria: Comestibles, subcategoria: Salsas, condimentos y aderezos}
+    - {ruta: /supermercado/comestibles/te-y-aromaticas, categoria: Comestibles, subcategoria: Té y aromáticas}
+    - {ruta: /supermercado/comestibles/arroz-y-fideos, categoria: Comestibles, subcategoria: Arroz y fideos}
+    - {ruta: /supermercado/comestibles/harinas-y-avenas, categoria: Comestibles, subcategoria: Harinas y avenas}
+    - {ruta: /supermercado/comestibles/dulces-postres-y-untables, categoria: Comestibles, subcategoria: Dulces, postres y untables}
+    - {ruta: /supermercado/comestibles/fideos-sopas-y-pure-instantaneos, categoria: Comestibles, subcategoria: Fideos, sopas y puré instantáneos}
+    - {ruta: /supermercado/comestibles/enlatados-y-conservas, categoria: Comestibles, subcategoria: Enlatados y conservas}
+    - {ruta: /supermercado/comestibles/granos-y-semillas, categoria: Comestibles, subcategoria: Granos y semillas}
+    - {ruta: /supermercado/comestibles/complementos-y-suplementos, categoria: Comestibles, subcategoria: Complementos y suplementos}
+    - {ruta: /supermercado/comestibles/comestibles-panaderia, categoria: Comestibles, subcategoria: Panadería}
+    - {ruta: /supermercado/comestibles/comestibles-reposteria, categoria: Comestibles, subcategoria: Repostería}
+    - {ruta: /supermercado/aguas-y-bebidas/aguas, categoria: Aguas y bebidas, subcategoria: Aguas}
+    - {ruta: /supermercado/aguas-y-bebidas/bebidas-gaseosas-y-maltas, categoria: Aguas y bebidas, subcategoria: Gaseosas y maltas}
+    - {ruta: /supermercado/aguas-y-bebidas/jugos-y-otras-bebidas, categoria: Aguas y bebidas, subcategoria: Jugos y otras bebidas}
+    - {ruta: /supermercado/aguas-y-bebidas/hidratantes-y-energizantes, categoria: Aguas y bebidas, subcategoria: Hidratantes y energizantes}
+    - {ruta: /supermercado/snacks-y-golosinas/galletas, categoria: Snacks y golosinas, subcategoria: Galletas}
+    - {ruta: /supermercado/snacks-y-golosinas/papas-fritas, categoria: Snacks y golosinas, subcategoria: Papas fritas}
+    - {ruta: /supermercado/snacks-y-golosinas/frutos-secos-habas-y-mani, categoria: Snacks y golosinas, subcategoria: Frutos secos, habas y maní}
+    - {ruta: /supermercado/snacks-y-golosinas/snacks-de-maiz, categoria: Snacks y golosinas, subcategoria: Snacks de maíz}
+    - {ruta: /supermercado/snacks-y-golosinas/snacks-de-verde-y-yuca, categoria: Snacks y golosinas, subcategoria: Snacks de verde y yuca}
+    - {ruta: /supermercado/snacks-y-golosinas/otros-snacks, categoria: Snacks y golosinas, subcategoria: Otros snacks}
+    - {ruta: /supermercado/snacks-y-golosinas/chocolates, categoria: Snacks y golosinas, subcategoria: Chocolates}
+    - {ruta: /supermercado/snacks-y-golosinas/cakes-y-bocaditos, categoria: Snacks y golosinas, subcategoria: Cakes y bocaditos}
+    - {ruta: /supermercado/snacks-y-golosinas/caramelos-y-chicles, categoria: Snacks y golosinas, subcategoria: Caramelos y chicles}
+    - {ruta: /supermercado/lacteos/huevos, categoria: Lácteos, subcategoria: Huevos}
+    - {ruta: /supermercado/lacteos/crema-de-leche, categoria: Lácteos, subcategoria: Crema de leche}
+    - {ruta: /supermercado/lacteos/leche-en-polvo, categoria: Lácteos, subcategoria: Leche en polvo}
+    - {ruta: /supermercado/lacteos/leches-blancas, categoria: Lácteos, subcategoria: Leches blancas}
+    - {ruta: /supermercado/lacteos/leches-saborizadas, categoria: Lácteos, subcategoria: Leches saborizadas}
+    - {ruta: /supermercado/lacteos/leches-vegetales, categoria: Lácteos, subcategoria: Leches vegetales}
+    - {ruta: /supermercado/lacteos/quesos, categoria: Lácteos, subcategoria: Quesos}
+    - {ruta: /supermercado/lacteos/yogurt, categoria: Lácteos, subcategoria: Yogurt}
+    - {ruta: /supermercado/frutas-y-verduras/frutas, categoria: Frutas y verduras, subcategoria: Frutas}
+    - {ruta: /supermercado/frutas-y-verduras/vegetales-y-verduras, categoria: Frutas y verduras, subcategoria: Vegetales y verduras}
+    - {ruta: /supermercado/pastas, categoria: Pastas, subcategoria: Pastas}
+    - {ruta: /supermercado/pescados-y-mariscos-congelados/pescados-congelados, categoria: Pescados y mariscos, subcategoria: Pescados congelados}
+    - {ruta: /supermercado/pescados-y-mariscos-congelados/mariscos-congelados, categoria: Pescados y mariscos, subcategoria: Mariscos congelados}
+    - {ruta: /bebes/alimentacion-del-bebe/compotas-y-papillas, categoria: Alimentación del bebé, subcategoria: Compotas y papillas}
+    - {ruta: /bebes/alimentacion-del-bebe/formulas-y-complementos-para-el-bebe, categoria: Alimentación del bebé, subcategoria: Fórmulas y complementos}
+
+tuti:
+  base_url: https://tuti.com.ec
+  # Tuti no separa alimentos: se recorre el catálogo y se filtra por palabras.
+  listados:
+    - /nuestros-productos
+
+supermaxi:
+  base_url: https://www.supermaxi.com
+  # Categorías raíz de alimentos (WooCommerce). El scraper usa el sitemap
+  # de productos y descarta los que no pertenecen a estas raíces.
+  food_roots:
+    - abarrotes
+    - alacena
+    - alimentos-congelados
+    - alimentos-frescos
+    - charcuteria-y-comidas-preparadas
+    - jugos-y-bebidas
+    - lacteos
+    - panaderia
+    - pasteleria-y-reposteria
+    - proteinas
+    - salsas-y-condimentos
+    - snacks
+    - snacks-y-bebidas
+    - cafe
+
+megamaxi:
+  base_url: https://www.megamaxi.com
+  food_roots:
+    - alacena
+    - alimentos-congelados
+    - botanas-snacks
+    - cafe
+    - charcuteria-y-comidas-preparadas
+    - chocolates-snacks
+    - condimentos-salsas-y-condimentos
+    - dips-salsas-y-aderezos-salsas-y-condimentos
+    - dulces-snacks
+    - frutas-en-conserva-reposteria-pasteleria-y-reposteria
+    - galletas-y-poncakes-snacks
+    - jugos-y-bebidas
+    - lacteos
+    - mayonesas-salsas-y-aderezos-salsas-y-condimentos
+    - mostazas-salsas-y-aderezos-salsas-y-condimentos
+    - panaderia
+    - pasteleria-y-reposteria
+    - proteinas
+    - salsas-y-condimentos
+    - snacks
+
+# Filtro por nombre de producto (se usa en Tuti y como red de seguridad en el resto).
+filtro_alimentos:
+  excluir_palabras:
+    - detergente
+    - jabon
+    - shampoo
+    - acondicionador
+    - suavizante
+    - desinfectante
+    - limpiador
+    - lavavajilla
+    - cloro
+    - papel higienico
+    - toalla
+    - panal
+    - desodorante
+    - crema dental
+    - cepillo
+    - insecticida
+    - juguete
+    - bolsa de basura
+    - servilleta
+    - vaso desechable
+    - maquillaje
+  alcohol:
+    - cerveza
+    - vino
+    - whisky
+    - ron
+    - vodka
+    - aguardiente
+    - tequila
+    - licor
+  mascotas:
+    - perro
+    - gato
+    - mascota
+    - cachorro
+  revisar_palabras:    # casos dudosos: se incluyen pero con revisar=true
+    - suplemento
+    - vitamina
+    - bolsa
+    - envase
+    - empaque

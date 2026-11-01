@@ -1,0 +1,15 @@
+sqlalchemy>=2.0
+alembic
+psycopg2-binary
+fastapi
+uvicorn
+boto3
+requests
+beautifulsoup4
+lxml
+pyyaml
+python-dotenv
+pandas
+openpyxl
+# Requerido por fastapi.testclient en tests/test_flujo.py
+httpx
